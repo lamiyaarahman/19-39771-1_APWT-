@@ -24,8 +24,7 @@ class PagesController extends Controller
          Id: 1018,
          Price: 700tk",
         
-
-       );
+        );
         return view('product')
         
         ->with('names',$names);
